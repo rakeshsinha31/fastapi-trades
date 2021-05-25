@@ -12,7 +12,7 @@ class ServerSettings(BaseSettings):
 
 
 class DatabaseSettings(BaseSettings):
-    DB_URL: str = "mongodb+srv://admin:admin@cluster0.e1lvn.mongodb.net"
+    DB_URL: str = "mongodb+srv://<user>:<pwd>@cluster0.e1lvn.mongodb.net"
     DB_NAME: str = "fastapi"
 
 
